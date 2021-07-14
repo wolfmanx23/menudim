@@ -25,3 +25,5 @@ def hello():
 @app.route('/backup')
 def hello2():
     return redirect("https://pxbackup.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")

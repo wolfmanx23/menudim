@@ -26,6 +26,9 @@ def hello():
 def hello2():
     return redirect("https://pxbackup.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
+@app.route('/iks')
+def hello3():
+    return redirect("https://iks-ocp.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/iks")
 
 @app.route('/ocp')
 def hello1():
